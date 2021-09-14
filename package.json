@@ -1,7 +1,7 @@
 {
   "name": "movies-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@material-ui/core": "^3.9.4",
     "@material-ui/icons": "^3.0.2",
@@ -18,7 +18,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint --fix src/**/*.js"
   },
-  "proxy": "http://localhost:8085"
+  "proxy": "http://localhost:8085",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.25.1"
+  }
 }

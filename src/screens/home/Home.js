@@ -300,7 +300,7 @@ class Home extends Component {
                         </Card>
                     </div>
                 </div>
-            </div >
+            </div>
         )
     }
 }
